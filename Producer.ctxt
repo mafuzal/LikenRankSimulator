@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=sim\ taste
+comment0.target=Producer(Simulation,\ java.lang.String)
+comment0.text=\r\n\ initialize\ this\ producer\ as\ per\ the\ supplied\ parameters\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ The\ producer's\ action\ during\ one\ simulation\ step,\ consists,\ for\ now,\ of\:\r\n\ 1-\ creating\ a\ document\ that\ matches\ this\ producer's\ taste,\ and\ adding\ it\r\n\ to\ the\ simulation\ 2-\ searching\ the\ simulation\ for\ the\ top\ documents\ 3-\r\n\ evaluating\ the\ returned\ documents\:\ for\ now,\ "like"\ a\ document\ if\ its\ tag\r\n\ matches\ the\ taste\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ return\ a\ string\ representation\ of\ this\ producer.\ the\ format\ to\ follow\ is\r\n\ the\ same\ as\ for\ user,\ except\ it\ starts\ with\ the\ word\ "producer"\:\r\n\ \r\n\ "producer\:\ <id>\ is\ into\:\ <taste>\ and\ currently\ likes\:\ <doc1>,<doc2>,etc."\r\n
+numComments=3
